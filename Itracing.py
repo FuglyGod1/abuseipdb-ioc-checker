@@ -89,7 +89,6 @@ def print_valid_ips(results, iocList):
                         ", score: " + str(result['abuseConfidenceScore']),
                         ", country: " + result['countryCode']
                     )
-\
 
 def main():
     #remember to set the api key in the terminal , do $env:ABUSE_API_KEY="the api key"
